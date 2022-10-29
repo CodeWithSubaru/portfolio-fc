@@ -25,16 +25,16 @@ export default {
         {
           id: 1,
           title: 'CoffeeCode',
-          body: 'CoffeeCode is a blog website build in PHP OOP Mysql. It was build with my colleagues in my 3<sup>rd</sup> Year College',
+          body: 'CoffeeCode is a blog website build in PHP OOP Mysql. It was built with collaboration of my colleagues in my 3<sup>rd</sup> Year College',
           img: './img/coffeecode.png',
           url: 'http://coffeecode.epizy.com',
         },
         {
           id: 2,
-          title: 'CoffeeCode',
-          body: 'CoffeeCode is a blog website build in PHP OOP Mysql. It was build with my colleagues in my 3<sup>rd</sup> Year College',
-          img: './img/coffeecode.png',
-          url: 'http://coffeecode.epizy.com',
+          title: 'Lazaro Gas Delivery',
+          body: 'Lazaro Gas Delivery is kind of ordering system built in PHP Procedural and Mysql. It was built at my 1<sup>st</sup> Year College',
+          img: './img/lazarogas.png',
+          url: 'http://lazarogas.rf.gd',
         },
         {
           id: 3,

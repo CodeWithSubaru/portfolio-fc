@@ -1,0 +1,28 @@
+.tech {
+  & .heading-tertiary {
+    margin-bottom: 9rem;
+  }
+
+  &-img {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(min-content, 1fr));
+    justify-items: center;
+    align-items: center;
+
+    row-gap: 10rem;
+    column-gap: 2rem;
+
+    svg {
+      filter: opacity(0.5);
+      height: 15vw;
+      width: min(15vw, 25vw);
+    }
+  }
+}
+
+.contact {
+  &__img {
+    height: 5rem;
+    width: 5rem;
+  }
+}

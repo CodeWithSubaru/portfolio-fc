@@ -1,0 +1,29 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.about {
+  grid-column: span 2;
+}
+
+.tech {
+  grid-column: span 2;
+  padding: 15rem 14em;
+}
+
+.project {
+  & .cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20ch, 1fr));
+    gap: 2rem;
+  }
+}
+
+.contacts {
+  grid-column: span 2;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  justify-items: center;
+}

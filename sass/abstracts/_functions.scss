@@ -1,0 +1,5 @@
+// Functions
+
+@function pxToEm($num) {
+  @return #{$num / 16}em;
+}

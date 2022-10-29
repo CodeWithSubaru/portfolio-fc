@@ -1,0 +1,32 @@
+.cards {
+  &:hover .card:not(:hover) {
+    scale: 0.95;
+  }
+
+  .card {
+    background-color: $clr-white;
+    border-radius: 1rem;
+    overflow: hidden;
+    transition: all 0.2s;
+
+    &:hover {
+      @include boxShadow;
+    }
+
+    &__img {
+      width: 100%;
+      display: block;
+      background-size: cover;
+      object-fit: cover;
+      background-position: center center;
+    }
+
+    &__details {
+      padding: 4rem;
+    }
+
+    &__content {
+      color: $clr-grey-dark;
+    }
+  }
+}

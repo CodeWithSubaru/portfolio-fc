@@ -1,0 +1,44 @@
+.nav {
+  grid-column: span 2;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  justify-content: end;
+  flex: 1;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  padding: 2rem;
+  background: #fff;
+  box-shadow: 0 0.1rem 0.3rem rgba($color: #000000, $alpha: 0.1);
+  z-index: 10;
+
+  &-list {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 2rem;
+
+    &__link:link,
+    &__link:visited {
+      display: block;
+      text-decoration: none;
+      color: rgba($color: #000000, $alpha: 0.7);
+      font-weight: 500;
+      cursor: pointer;
+      position: relative;
+      transition: all 0.2s;
+      padding: 1.2rem 2rem;
+      border-radius: 0.5rem;
+    }
+
+    &__link:hover,
+    &__link:active {
+      color: $clr-black;
+      background-color: $clr-primary-400;
+      translate: 0 -0.5rem;
+    }
+  }
+}

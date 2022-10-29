@@ -1,0 +1,41 @@
+.btn {
+  border: none;
+  padding: 1.5rem 3rem;
+  font-size: 1.6rem;
+  border: 2px;
+  background-color: $clr-grey-dark;
+  color: $color-grey-light-1;
+  font-weight: 700;
+  cursor: pointer;
+  letter-spacing: 0.1rem;
+  border-radius: 0.5rem;
+  transition: all 0.2s;
+
+  &:hover {
+    translate: 0 -0.2rem;
+    background-color: darken($color: $clr-grey-dark, $amount: 10%);
+  }
+
+  &--card {
+    display: block;
+    overflow: hidden;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1.8rem;
+    background: linear-gradient(
+      to bottom right,
+      $clr-primary-400,
+      $clr-primary-500
+    );
+    transition: all 0.2s;
+
+    &:hover {
+      background: linear-gradient(
+        to bottom left,
+        $clr-primary-400,
+        $clr-primary-500
+      );
+      translate: 0;
+    }
+  }
+}

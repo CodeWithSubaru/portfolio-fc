@@ -5,6 +5,7 @@
   "scripts": {
     "compile": "node-sass sass/main.scss css/style.css -w",
     "serve": "vue-cli-service serve",
+    "start": "npm-run-all serve compile",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
